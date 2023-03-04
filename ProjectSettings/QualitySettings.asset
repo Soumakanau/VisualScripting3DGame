@@ -37,10 +37,11 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 4
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: a180f203c87c305458249215882734cf, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: a180f203c87c305458249215882734cf,
+      type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Low
@@ -73,10 +74,11 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 16
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: 415dd6389cf69804ca7a0d2d1b088d4d, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: 415dd6389cf69804ca7a0d2d1b088d4d,
+      type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Medium
@@ -109,10 +111,11 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 64
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: a53c4a8f1ea570e45b41a82071fef3d2, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: a53c4a8f1ea570e45b41a82071fef3d2,
+      type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: High
@@ -145,10 +148,11 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 256
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: 8dd9b2bf03c652f47a8d6974ddc7ebc7, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: 8dd9b2bf03c652f47a8d6974ddc7ebc7,
+      type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Very High
@@ -181,10 +185,11 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 1024
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: 2e986fa0424350d42a8266daa8639893, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: 2e986fa0424350d42a8266daa8639893,
+      type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Ultra
@@ -206,7 +211,7 @@ QualitySettings:
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 2
     maximumLODLevel: 0
     streamingMipmapsActive: 0
@@ -217,22 +222,23 @@ QualitySettings:
     streamingMipmapsMaxFileIORequests: 1024
     particleRaycastBudget: 4096
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 4
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: 60a4726731edf5e4e8697fa14a05e51c, type: 2}
+    customRenderPipeline: {fileID: 11400000, guid: 60a4726731edf5e4e8697fa14a05e51c,
+      type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 2
-    Lumin: 5
     Nintendo 3DS: 5
     Nintendo Switch: 5
     PS4: 5
+    PSM: 5
     PSP2: 2
-    Server: 0
-    Stadia: 5
     Standalone: 5
+    Tizen: 2
     WebGL: 3
+    WiiU: 5
     Windows Store Apps: 5
     XboxOne: 5
     iPhone: 2
